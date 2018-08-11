@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,13 +13,78 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TruthOrDare" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Truth or Dare?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WZg-Ul-UgZ">
+                                <rect key="frame" x="67.5" y="70" width="240" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UHL-eK-xY5">
+                                <rect key="frame" x="112" y="238" width="150" height="50"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="CIv-cq-KVQ"/>
+                                    <constraint firstAttribute="height" constant="50" id="dZR-Nf-DjY"/>
+                                </constraints>
+                                <state key="normal" title="Truth"/>
+                                <connections>
+                                    <action selector="truthButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0sN-yu-W4p"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fYT-YM-kjD">
+                                <rect key="frame" x="112" y="428" width="150" height="50"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="KOF-c9-bbR"/>
+                                    <constraint firstAttribute="height" constant="50" id="S8P-FB-25m"/>
+                                </constraints>
+                                <state key="normal" title="Dare"/>
+                                <connections>
+                                    <action selector="dareButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fIv-Fc-TD3"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sVI-bP-SO4">
+                                <rect key="frame" x="30" y="333.5" width="315" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="97N-aT-zqs">
+                                <rect key="frame" x="321" y="617" width="34" height="30"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="backButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w62-Eu-jBO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="WZg-Ul-UgZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1E7-8p-VY3"/>
+                            <constraint firstItem="sVI-bP-SO4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="2On-cB-HX9"/>
+                            <constraint firstItem="sVI-bP-SO4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Cjh-3I-biQ"/>
+                            <constraint firstItem="WZg-Ul-UgZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="EAF-PC-HFA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="97N-aT-zqs" secondAttribute="trailing" constant="20" id="Ip2-DB-OQn"/>
+                            <constraint firstItem="UHL-eK-xY5" firstAttribute="top" secondItem="WZg-Ul-UgZ" secondAttribute="bottom" constant="120" id="PAQ-se-W9i"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="97N-aT-zqs" secondAttribute="bottom" constant="20" id="Suj-oq-q8r"/>
+                            <constraint firstItem="UHL-eK-xY5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="U8b-fO-9Bk"/>
+                            <constraint firstItem="fYT-YM-kjD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aFH-TP-eAp"/>
+                            <constraint firstAttribute="trailing" secondItem="sVI-bP-SO4" secondAttribute="trailing" constant="30" id="cWm-Uj-XYk"/>
+                            <constraint firstItem="fYT-YM-kjD" firstAttribute="top" secondItem="UHL-eK-xY5" secondAttribute="bottom" constant="140" id="cZn-Jl-wpn"/>
+                            <constraint firstItem="sVI-bP-SO4" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="eY7-v5-XnY"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="backButton" destination="97N-aT-zqs" id="XCh-qI-hUU"/>
+                        <outlet property="dareButton" destination="fYT-YM-kjD" id="Urz-SS-vE4"/>
+                        <outlet property="resultLabel" destination="sVI-bP-SO4" id="dHR-Ah-xJA"/>
+                        <outlet property="truthButton" destination="UHL-eK-xY5" id="lF4-uS-fas"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
