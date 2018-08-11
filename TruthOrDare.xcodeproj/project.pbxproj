@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F061F3EA211F681500AE5641 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F061F3E9211F681500AE5641 /* AppDelegate.swift */; };
+		F061F3EC211F681500AE5641 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F061F3EB211F681500AE5641 /* ViewController.swift */; };
+		F061F3EF211F681500AE5641 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F061F3ED211F681500AE5641 /* Main.storyboard */; };
+		F061F3F1211F681600AE5641 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F061F3F0211F681600AE5641 /* Assets.xcassets */; };
+		F061F3F4211F681600AE5641 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F061F3F2211F681600AE5641 /* LaunchScreen.storyboard */; };
+		F061F3FF211F681700AE5641 /* TruthOrDareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F061F3FE211F681700AE5641 /* TruthOrDareTests.swift */; };
+		F061F40A211F681700AE5641 /* TruthOrDareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F061F409211F681700AE5641 /* TruthOrDareUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F061F3FB211F681700AE5641 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F061F3DE211F681400AE5641 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F061F3E5211F681500AE5641;
+			remoteInfo = TruthOrDare;
+		};
+		F061F406211F681700AE5641 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F061F3DE211F681400AE5641 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F061F3E5211F681500AE5641;
+			remoteInfo = TruthOrDare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F061F3E6211F681500AE5641 /* TruthOrDare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TruthOrDare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F061F3E9211F681500AE5641 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F061F3EB211F681500AE5641 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F061F3EE211F681500AE5641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F061F3F0211F681600AE5641 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F061F3F3211F681600AE5641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F061F3F5211F681600AE5641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F061F3FA211F681700AE5641 /* TruthOrDareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TruthOrDareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F061F3FE211F681700AE5641 /* TruthOrDareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruthOrDareTests.swift; sourceTree = "<group>"; };
+		F061F400211F681700AE5641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F061F405211F681700AE5641 /* TruthOrDareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TruthOrDareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F061F409211F681700AE5641 /* TruthOrDareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruthOrDareUITests.swift; sourceTree = "<group>"; };
+		F061F40B211F681700AE5641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F061F3E3211F681500AE5641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F061F3F7211F681700AE5641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F061F402211F681700AE5641 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F061F3DD211F681400AE5641 = {
+			isa = PBXGroup;
+			children = (
+				F061F3E8211F681500AE5641 /* TruthOrDare */,
+				F061F3FD211F681700AE5641 /* TruthOrDareTests */,
+				F061F408211F681700AE5641 /* TruthOrDareUITests */,
+				F061F3E7211F681500AE5641 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F061F3E7211F681500AE5641 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F061F3E6211F681500AE5641 /* TruthOrDare.app */,
+				F061F3FA211F681700AE5641 /* TruthOrDareTests.xctest */,
+				F061F405211F681700AE5641 /* TruthOrDareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F061F3E8211F681500AE5641 /* TruthOrDare */ = {
+			isa = PBXGroup;
+			children = (
+				F061F3E9211F681500AE5641 /* AppDelegate.swift */,
+				F061F3EB211F681500AE5641 /* ViewController.swift */,
+				F061F3ED211F681500AE5641 /* Main.storyboard */,
+				F061F3F0211F681600AE5641 /* Assets.xcassets */,
+				F061F3F2211F681600AE5641 /* LaunchScreen.storyboard */,
+				F061F3F5211F681600AE5641 /* Info.plist */,
+			);
+			path = TruthOrDare;
+			sourceTree = "<group>";
+		};
+		F061F3FD211F681700AE5641 /* TruthOrDareTests */ = {
+			isa = PBXGroup;
+			children = (
+				F061F3FE211F681700AE5641 /* TruthOrDareTests.swift */,
+				F061F400211F681700AE5641 /* Info.plist */,
+			);
+			path = TruthOrDareTests;
+			sourceTree = "<group>";
+		};
+		F061F408211F681700AE5641 /* TruthOrDareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F061F409211F681700AE5641 /* TruthOrDareUITests.swift */,
+				F061F40B211F681700AE5641 /* Info.plist */,
+			);
+			path = TruthOrDareUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F061F3E5211F681500AE5641 /* TruthOrDare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F061F40E211F681700AE5641 /* Build configuration list for PBXNativeTarget "TruthOrDare" */;
+			buildPhases = (
+				F061F3E2211F681500AE5641 /* Sources */,
+				F061F3E3211F681500AE5641 /* Frameworks */,
+				F061F3E4211F681500AE5641 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TruthOrDare;
+			productName = TruthOrDare;
+			productReference = F061F3E6211F681500AE5641 /* TruthOrDare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F061F3F9211F681700AE5641 /* TruthOrDareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F061F411211F681700AE5641 /* Build configuration list for PBXNativeTarget "TruthOrDareTests" */;
+			buildPhases = (
+				F061F3F6211F681700AE5641 /* Sources */,
+				F061F3F7211F681700AE5641 /* Frameworks */,
+				F061F3F8211F681700AE5641 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F061F3FC211F681700AE5641 /* PBXTargetDependency */,
+			);
+			name = TruthOrDareTests;
+			productName = TruthOrDareTests;
+			productReference = F061F3FA211F681700AE5641 /* TruthOrDareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F061F404211F681700AE5641 /* TruthOrDareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F061F414211F681700AE5641 /* Build configuration list for PBXNativeTarget "TruthOrDareUITests" */;
+			buildPhases = (
+				F061F401211F681700AE5641 /* Sources */,
+				F061F402211F681700AE5641 /* Frameworks */,
+				F061F403211F681700AE5641 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F061F407211F681700AE5641 /* PBXTargetDependency */,
+			);
+			name = TruthOrDareUITests;
+			productName = TruthOrDareUITests;
+			productReference = F061F405211F681700AE5641 /* TruthOrDareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F061F3DE211F681400AE5641 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Janice He";
+				TargetAttributes = {
+					F061F3E5211F681500AE5641 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					F061F3F9211F681700AE5641 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F061F3E5211F681500AE5641;
+					};
+					F061F404211F681700AE5641 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F061F3E5211F681500AE5641;
+					};
+				};
+			};
+			buildConfigurationList = F061F3E1211F681500AE5641 /* Build configuration list for PBXProject "TruthOrDare" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F061F3DD211F681400AE5641;
+			productRefGroup = F061F3E7211F681500AE5641 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F061F3E5211F681500AE5641 /* TruthOrDare */,
+				F061F3F9211F681700AE5641 /* TruthOrDareTests */,
+				F061F404211F681700AE5641 /* TruthOrDareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F061F3E4211F681500AE5641 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F061F3F4211F681600AE5641 /* LaunchScreen.storyboard in Resources */,
+				F061F3F1211F681600AE5641 /* Assets.xcassets in Resources */,
+				F061F3EF211F681500AE5641 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F061F3F8211F681700AE5641 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F061F403211F681700AE5641 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F061F3E2211F681500AE5641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F061F3EC211F681500AE5641 /* ViewController.swift in Sources */,
+				F061F3EA211F681500AE5641 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F061F3F6211F681700AE5641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F061F3FF211F681700AE5641 /* TruthOrDareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F061F401211F681700AE5641 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F061F40A211F681700AE5641 /* TruthOrDareUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F061F3FC211F681700AE5641 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F061F3E5211F681500AE5641 /* TruthOrDare */;
+			targetProxy = F061F3FB211F681700AE5641 /* PBXContainerItemProxy */;
+		};
+		F061F407211F681700AE5641 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F061F3E5211F681500AE5641 /* TruthOrDare */;
+			targetProxy = F061F406211F681700AE5641 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F061F3ED211F681500AE5641 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F061F3EE211F681500AE5641 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F061F3F2211F681600AE5641 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F061F3F3211F681600AE5641 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F061F40C211F681700AE5641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F061F40D211F681700AE5641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F061F40F211F681700AE5641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TruthOrDare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JaniceKwing.TruthOrDare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F061F410211F681700AE5641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TruthOrDare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JaniceKwing.TruthOrDare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F061F412211F681700AE5641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TruthOrDareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JaniceKwing.TruthOrDareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TruthOrDare.app/TruthOrDare";
+			};
+			name = Debug;
+		};
+		F061F413211F681700AE5641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TruthOrDareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JaniceKwing.TruthOrDareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TruthOrDare.app/TruthOrDare";
+			};
+			name = Release;
+		};
+		F061F415211F681700AE5641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TruthOrDareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JaniceKwing.TruthOrDareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TruthOrDare;
+			};
+			name = Debug;
+		};
+		F061F416211F681700AE5641 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TruthOrDareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JaniceKwing.TruthOrDareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TruthOrDare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F061F3E1211F681500AE5641 /* Build configuration list for PBXProject "TruthOrDare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F061F40C211F681700AE5641 /* Debug */,
+				F061F40D211F681700AE5641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F061F40E211F681700AE5641 /* Build configuration list for PBXNativeTarget "TruthOrDare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F061F40F211F681700AE5641 /* Debug */,
+				F061F410211F681700AE5641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F061F411211F681700AE5641 /* Build configuration list for PBXNativeTarget "TruthOrDareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F061F412211F681700AE5641 /* Debug */,
+				F061F413211F681700AE5641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F061F414211F681700AE5641 /* Build configuration list for PBXNativeTarget "TruthOrDareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F061F415211F681700AE5641 /* Debug */,
+				F061F416211F681700AE5641 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F061F3DE211F681400AE5641 /* Project object */;
+}
