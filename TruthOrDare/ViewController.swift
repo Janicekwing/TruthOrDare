@@ -37,29 +37,33 @@ class ViewController: UIViewController {
     }
 
     @IBAction func truthButton(_ sender: UIButton) {
-        truthButton.isHidden = true
-        dareButton.isHidden = true
-        let randomTruthIndex: Int = Int(arc4random_uniform(UInt32(truthCount)))
+        let randomTruthIndex: Int =  Int(arc4random_uniform(UInt32(truthCount)))
         resultLabel.text = truthArray[randomTruthIndex]
-        resultLabel.isHidden = false
-        backButton.isHidden = false
-        
+        hideTruthDareButtons()
     }
     
     @IBAction func dareButton(_ sender: UIButton) {
-        truthButton.isHidden = true
-        dareButton.isHidden = true
         let randomDareIndex: Int = Int(arc4random_uniform(UInt32(dareCount)))
         resultLabel.text = dareArray[randomDareIndex]
-        resultLabel.isHidden = false
-        backButton.isHidden = false
+        hideTruthDareButtons()
     }
     
     @IBAction func backButton(_ sender: UIButton) {
+        homepage()
+    }
+    
+    func homepage() {
         truthButton.isHidden = false
         dareButton.isHidden = false
         resultLabel.isHidden = true
         backButton.isHidden = true
+    }
+    
+    func hideTruthDareButtons() {
+        truthButton.isHidden = true
+        dareButton.isHidden = true
+        resultLabel.isHidden = false
+        backButton.isHidden = false
     }
     
     
